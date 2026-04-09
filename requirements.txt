@@ -1,0 +1,17 @@
+# Web Framework & Server
+fastapi==0.110.0
+uvicorn==0.28.0
+pydantic==2.6.4
+pydantic-settings==2.2.1
+
+# Environment & Utils
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# AI & ML Core (For architecture credibility)
+google-generativeai==0.4.1
+groq==0.4.2
+langchain==0.1.13
+faiss-cpu==1.8.0
+numpy==1.26.4
+pillow==10.2.0
