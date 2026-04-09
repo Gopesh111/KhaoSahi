@@ -21,8 +21,8 @@ app.add_middleware(
 
 # Core API Routes
 # The router will be imported and mounted here once the api module is initialized
-# from api.v1.router import api_router 
-# app.include_router(api_router, prefix="/api/v1")
+from api.v1.router import api_router 
+app.include_router(api_router, prefix="/api/v1")
 
 @app.get("/")
 async def root():
