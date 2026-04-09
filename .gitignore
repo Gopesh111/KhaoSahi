@@ -1,4 +1,4 @@
-# Environments
+# Virtual Environments
 .env
 .venv
 env/
@@ -7,16 +7,18 @@ ENV/
 env.bak/
 venv.bak/
 
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / optimized files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# IDEs
+# IDE and OS specifics
 .idea/
 .vscode/
+.DS_Store
 
-# Project specific
-data/fssai_index.faiss
+# Project specific data
+data/*.faiss
 uploaded_images/
+logs/
 *.log
